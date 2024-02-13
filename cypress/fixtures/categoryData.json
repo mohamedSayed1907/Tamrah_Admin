@@ -1,0 +1,15 @@
+{
+  "categoryImagePath": "pizza.jpeg",
+  "categoryName": "categoryName",
+  "editedCategoryImage": "download.jpeg",
+  "editedCategoryName": "EditedCategoryName",
+
+  "mealItemImagePath": "pizza.jpeg",
+  "mealItemName": "mealName",
+  "editedmealItemImage": "download.jpeg",
+  "editedmealItemName": "EditedMealName",
+  "mealPortionSize": 3,
+  "mealRate": 2,
+  "mealEditedPortionSize": 3,
+  "mealEditedRate": 2
+}

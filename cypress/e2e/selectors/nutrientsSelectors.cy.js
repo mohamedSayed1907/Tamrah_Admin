@@ -1,0 +1,21 @@
+module.exports = {
+  SideMenuContent: `#itemContent_dataManagment > .itemContent`,
+  nutrientsInSideMenu: "#dataManagment > :nth-child(2) > a > .listItemName",
+  nutrientsMealsXpath: `//*[@id="categoryRow1"]`,
+  nutrientsSubCategoriesMealsXpath: `//*[@id="SubCategoryRow1"]`,
+
+  subCategorySubMealsParentXpath: `//*[@id="subcategoryContent"]/div[1]`,
+  addCategoryModel: `[data-cy="entityCreateButton"]`,
+  categoryImageXpath: `//*[@id="uploadComponent"]/div/div/div/span/div/div/span/input`,
+  categoryNameField: "#form-input1",
+  addNewCategorybutton: `[data-cy="entityConfirmDeleteButton"]`,
+  successToastNotification: `.Toastify__toast-body`,
+  uploadImageError: `#basic_imageUrl_help > .ant-form-item-explain-error`,
+  categoryNameError: `#basic_categoryName_help > .ant-form-item-explain-error`,
+  categoryActionsXpath: `//*[@id="SubCategoryRow1"]/div`,
+  categoryDeleteActionXpath: `/html/body/div[2]/div/ul/li[2]/span/span`,
+  deleteButtonXpath: `[data-cy="entityConfirmDeleteButton"]`,
+  allCategoriesCards: `//*[@id="SubCategoryRow1"]`,
+  categoryEditActionXpath: `/html/body/div[2]/div/ul/li[1]/span/span`,
+  saveEditedButton: `[data-cy="entityConfirmDeleteButton"]`,
+};
